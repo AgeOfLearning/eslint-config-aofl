@@ -1,0 +1,38 @@
+{
+  "name": "eslint-config-aofl",
+  "version": "1.0.0",
+  "description": "Shareable eslint config for AofL JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AgeOfLearning/aofl.git"
+  },
+  "keywords": [
+    "eslint",
+    "aofljs",
+    "aofl",
+    "aofl",
+    "js",
+    "lint",
+    "linter",
+    "code",
+    "style",
+    "coding",
+    "standards"
+  ],
+  "author": "Arian Khosravi <arian.khosravi@aofl.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AgeOfLearning/aofl/issues"
+  },
+  "homepage": "https://github.com/AgeOfLearning/aofl#readme",
+  "peerDependencies": {
+    "eslint": ">=5.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0"
+  }
+}
