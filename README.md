@@ -1,4 +1,5 @@
 # eslint-config-aofl
+Shareable eslint config for AofL JS.
 
 ## Installation
 ```
