@@ -71,7 +71,8 @@ const rules = {
   'no-implicit-coercion': 2, // disallow shorthand type conversions
   // 'no-implicit-globals': 2, // disallow variable and function declarations in the global scope
   'no-implied-eval': 2, // disallow the use of eval()-like methods
-  'no-invalid-this': 1, // disallow this keywords outside of classes or class-like objects
+  'no-invalid-this': 0, // disallow this keywords outside of classes or class-like objects
+  'babel/no-invalid-this': 1,
   'no-iterator': 2, // disallow the use of the __iterator__ property
   'no-labels': 2, // disallow labeled statements
   'no-lone-blocks': 2, // disallow unnecessary nested blocks
@@ -153,7 +154,7 @@ const rules = {
   // 'array-element-newline': 2, // enforce line breaks after each array element
   'block-spacing': 2, // disallow or enforce spaces inside of blocks after opening block and before closing block
   // 'brace-style': 2, // enforce consistent brace style for blocks
-  'camelcase': [2, {properties: 'never'}], // enforce camelcase naming convention
+  'camelcase': [2, {properties: 'never', 'ignoreDestructuring': false}], // enforce camelcase naming convention
   // 'capitalized-comments': 2, // enforce or disallow capitalization of the first letter of a comment
   // 'comma-dangle': 2, // require or disallow trailing commas
   'comma-spacing': 2, // enforce consistent spacing before and after commas
