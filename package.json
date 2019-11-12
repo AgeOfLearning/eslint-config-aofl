@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-aofl",
-  "version": "2.0.0-beta.0",
+  "version": "2.0.0",
   "description": "Shareable eslint config for AofL JS",
   "main": "index.js",
   "scripts": {
